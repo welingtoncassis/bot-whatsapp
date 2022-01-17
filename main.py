@@ -5,7 +5,7 @@ import time
 class WhatsappBot:
     def __init__(self):
         self.mensagem = "Mensagem automática"
-        self.grupos = ["Lembretes"]
+        self.grupos = ["Grupo 1", "Grupo 2"]
         options = webdriver.ChromeOptions()
         # Caminho do driver e onde sessão do chrome será cacheada (evitando ler o qr code toda vez que for executado)
         options.add_argument(r"user-data-dir=./driver/data")
